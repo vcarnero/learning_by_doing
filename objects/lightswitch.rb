@@ -9,7 +9,7 @@ class Lightswitch
   def on (time_of_day)
     if time_of_day == five
       return "The light is on"
-    elsif return "The light is off"
+    elsif puts "The light is off"
     end
   end
 

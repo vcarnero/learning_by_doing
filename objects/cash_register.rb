@@ -19,8 +19,8 @@ class CashRegister
  end
 
  end
-testing_CR = CashRegister.new
-testing_CR.purchase(34.35)
+#testing_CR = CashRegister.new
+#testing_CR.purchase(34.35)
 #my_cash_register = CashRegister.new
 # my_cash_register.purchase(12.34)
 
