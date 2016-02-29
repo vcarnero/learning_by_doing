@@ -6,7 +6,7 @@
 # pay method takes one floating number for how much is paid, should return how much change is given
 
 class CashRegister
-  def purchase (floating_number)
+  def purchase(floating_number)
     @total = @total + floating_number
   end
 
@@ -14,7 +14,7 @@ class CashRegister
    @total
  end
 
- def pay (floating_number_paid, total)
+ def pay(floating_number_paid, total)
    return "#{floating_number_paid - total}"
  end
 
