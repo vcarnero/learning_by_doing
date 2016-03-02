@@ -88,12 +88,12 @@ number = gets.chomp
 print 'Give me another plural noun:'
 plural_noun_4 = gets.chomp
 
-print 'Here is your madlib: '
+print 'Here is your madlib:'
 
-puts "A vacation is when you take a trip to some #{adjective_1} place with your #{adjective_2} family.
-Usually you go to some place that is near a/an #{noun_1} or up on a/an #{noun_2}."
+puts "A vacation is when you take a trip to some #{adjective_1} place with your #{adjective_2} family."
+puts "Usually you go to some place that is near a/an #{noun_1} or up on a/an #{noun_2}."
 puts "A good vacation place is one where you can ride #{plural_noun_1} or play #{game} or go hunting for #{plural_noun_2}."
-puts "I like to spend my time #{verb_ing_1} or #{verb_ing_2}. "
+puts "I like to spend my time #{verb_ing_1} or #{verb_ing_2}."
 puts "When parents go on a vacation, they spend their time eating three #{plural_noun_3} a day, and fathers play golf, and mothers sit around #{verb_ing_3}."
 puts "Last summer, my little brother fell in a/an #{noun_3} and got poison #{plant} all over his #{body_part}."
 puts "My family is going to go to (the) #{place}, and I will practice #{verb_ing_4}."
