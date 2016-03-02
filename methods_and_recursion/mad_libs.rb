@@ -105,7 +105,7 @@ puts "#{place},and I will practice #{verb_ing_4}.Parents"
 puts "need vacations more than kids because parents are always very"
 puts "#{adjective_3} and because they have to work #{number} "
 puts "hours every day all year making enough #{plural_noun_4} to pay"
-puts" for the vacation."
+puts "for the vacation."
 
 
 
