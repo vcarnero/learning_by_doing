@@ -34,7 +34,7 @@ numbers_array.delete_at(4)
 # [1,2,3,4,7,8,9,10]
 numbers_array.delete_at(4)
 # [1,2,3,4,7,8,9,10]
-puts "If we delete 5, 6 and 7 from the array, we're left with '#{numbers_array}'"
+puts "If we delete 5, 6 and 7 from the array, we're left with #{numbers_array}"
 
 #If we add 5 at the beginning of the array, we're left with [5,1,2,3,4,8,9,10]
 puts "If we add 5 at the beginning of the array, we're left with #{numbers_array.insert(0,5)}"
