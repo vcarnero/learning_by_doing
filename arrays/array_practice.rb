@@ -34,13 +34,13 @@ numbers_array.delete_at(4)
 # [1,2,3,4,7,8,9,10]
 numbers_array.delete_at(4)
 # [1,2,3,4,7,8,9,10]
-puts "If we delete 5, 6 and 7 from the array, we're left with #{numbers_array}"
+puts "If we delete 5, 6 and 7 from the array, we're left with [#{numbers_array.join(',')}]"
 
 #If we add 5 at the beginning of the array, we're left with [5,1,2,3,4,8,9,10]
-puts "If we add 5 at the beginning of the array, we're left with #{numbers_array.insert(0,5)}"
+puts "If we add 5 at the beginning of the array, we're left with [#{numbers_array.insert(0,5).join(',')}]"
 
 # If we add 6 at the end of the array, we're left with [5,1,2,3,4,8,9,10,6]
-puts "If we add 6 at the end of the array, we're left with #{numbers_array.insert(8,6)}"
+puts "If we add 6 at the end of the array, we're left with [#{numbers_array.insert(8,6).join(',')}]"
 
 #Only the elements [9, 10] are > 8.
 puts "Only the elements [#{numbers_array[6..7].join(', ')}] are > 8."
