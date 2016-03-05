@@ -25,7 +25,7 @@ puts "The element with an index of 3 is #{numbers_array[3]}"
 puts "The second from last element is #{numbers_array[8]}"
 
 #The first four elements are '1, 2, 3, 4'
-puts "The first four elements are #{numbers_array[0...4]}"
+puts "The first four elements are #{numbers_array[0...4].join(', ')}"
 
 #If we delete 5, 6 and 7 from the array, we're left with [1,2,3,4,8,9,10]
 numbers_array.delete_at(4)
