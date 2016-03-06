@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-# Create a CashRegister class
 # purchase method takes a floating number and adds that to the total
 # total method returns how much is owed
-# pay method takes one floating number for how much is paid, should return how much change is given
-
+# pay method takes one floating number for how much is paid
+# should return how much change is given
+# create a CashRegister class
 class CashRegister
   def initialize(total = 0.0)
     @total = total
@@ -22,6 +22,3 @@ class CashRegister
     return floating_number_paid - @total
   end
 end
-
-
-
