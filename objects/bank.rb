@@ -9,11 +9,11 @@ class Bank
   end
 
   def withdrawal(cash_out)
-    @balance - cash_out
+    @balance = @balance - cash_out
   end
 
   def total
-    @balance = total
+    @balance
   end
 end
 # method that withdraws money from your bank account
