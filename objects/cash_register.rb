@@ -23,11 +23,5 @@ class CashRegister
   end
 end
 
-testing_CR = CashRegister.new
-# testing_CR.purchase(34.35)
-#my_cash_register = CashRegister.new
-# my_cash_register.purchase(12.34)
 
-# your_cash_register = CashRegister.new
-# your_cash_register.purchase(56.78)
 
