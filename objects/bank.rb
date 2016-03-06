@@ -1,9 +1,4 @@
 # class Bank
-# method that withdraws money from your bank account
-# method that deposits money to your bank account
-# method that gives you the total amount of money in your bank
-
-
 class Bank
   def initialize(amount_in_bank = 0.0)
     @balance = amount_in_bank
@@ -14,10 +9,13 @@ class Bank
   end
 
   def withdrawal(cash_out)
-    return @balance - cash_out
+    @balance - cash_out
   end
 
   def total
     @balance = total
   end
 end
+# method that withdraws money from your bank account
+# method that deposits money to your bank account
+# method that gives you the total amount of money in your bank
