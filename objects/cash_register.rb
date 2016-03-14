@@ -15,7 +15,7 @@ class CashRegister
   end
 
   def total
-    return @total
+    return "$#{format('%.2f',@total)}"
   end
 
   def pay(floating_number_paid)
