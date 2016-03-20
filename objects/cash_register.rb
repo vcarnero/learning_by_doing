@@ -15,10 +15,11 @@ class CashRegister
   end
 
   def total
-    return "$#{format('%.2f',@total)}"
+    puts "Your total is $#{format('%.2f', @total)}"
   end
 
   def pay(floating_number_paid)
-    return floating_number_paid - @total
+    puts "Your change is $#{format('%.2f', floating_number_paid - @total)}"
   end
 end
+
